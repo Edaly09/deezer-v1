@@ -1,0 +1,58 @@
+header{
+    /* display: flex;
+    justify-content:flex-end;
+    margin-top: 14px;
+    margin-right: 14px; */
+    border-bottom: 100px;
+    border-color: black;
+}
+image{
+    justify-content: left;
+    display: flex;
+}
+nav{
+    display: flex;
+    justify-content: right;
+    margin-top: 0px;
+}
+.premier{
+    display: flex;
+}
+.hero{
+    width: 500px;
+}
+.artipremier{
+    margin-top: 10px;
+    padding: 100px;
+}
+ section.premier h1{
+     font-weight: bold;
+ }
+ section.premier p{
+     color: #ef5466;
+ }
+ .deuxieme{
+     display: flex;
+     margin-top: 10px;
+    padding: 100px;
+ }
+
+.contenair1{
+    display: flex;
+    flex-wrap: wrap;
+}
+.phone{
+    width: 100px;
+    justify-content: left;
+}
+.toujour{
+    display: flex;
+    justify-content: center;
+}
+footer{
+    background-color: black;
+    color:  white;
+    display: flex;
+    justify-content: center;
+    width: auto;
+}
