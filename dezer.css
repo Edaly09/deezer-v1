@@ -1,58 +1,451 @@
-header{
-    /* display: flex;
-    justify-content:flex-end;
-    margin-top: 14px;
-    margin-right: 14px; */
-    border-bottom: 100px;
-    border-color: black;
+
+body{
+	font-family: 'Roboto', sans-serif;
 }
-image{
+
+
+
+header{
+    border-bottom: 50px;
+    margin-left: 20px;
+    margin-top: 10px;
+    padding-top: 5px;
+    width: auto;
+    border:black;
+    
+}
+hr{
+    size: 10px;
+}
+
+.image{
     justify-content: left;
     display: flex;
+    width: 80px;
 }
 nav{
-    display: flex;
-    justify-content: right;
-    margin-top: 0px;
+    display:flex;
+    justify-content:right;
+    width:auto;
+    gap: 45px;
+    
+   
+    
+    
 }
-.premier{
+
+
+ 
+section.premier{
     display: flex;
+    justify-content: center;
+   width: auto;
+   padding-top: 20px;
+   margin-right:  300px;
 }
 .hero{
     width: 500px;
+    padding-top: 0px;
 }
-.artipremier{
-    margin-top: 10px;
-    padding: 100px;
-}
+
+ section.premier p{
+     font-weight: bold;
+     color: #ef5466;
+    display: flex;
+
+ }
  section.premier h1{
      font-weight: bold;
+     
  }
- section.premier p{
-     color: #ef5466;
- }
- .deuxieme{
-     display: flex;
-     margin-top: 10px;
-    padding: 100px;
- }
+ 
 
-.contenair1{
+section.toujour{
     display: flex;
-    flex-wrap: wrap;
-}
-.phone{
-    width: 100px;
-    justify-content: left;
-}
-.toujour{
-    display: flex;
-    justify-content: center;
+    
+    margin-top: 30px;
+    gap: 45px;
 }
 footer{
     background-color: black;
     color:  white;
+    width: auto;
+		justify-content: center;
+		padding-top: 100px;
+		padding-bottom: 100px;
+		padding-left: 100px;
+		padding-right: 100px;
+		
+}
+
+.foot{
+	 
+	 /* justify-content: center; */
+	 display: flex;
+	 gap: 100px;
+	 justify-content: center;
+
+}
+.toujour{
+    background-color: #ef5466;
+    display: flex;
+    justify-content:center;
+    gap: 80px;
+		width: auto;
+		margin-left: 100px;
+		margin-right: 100px;
+		color: white;
+}
+ .troisI{
+  display: flex;
+	align-items: center;
+	gap: 20px;
+}  
+
+
+article.icone{
+    width: 30px;
+    display: flex;
+    justify-content: left;
+    
+    
+}
+
+.book{
+    display:flex;
+    justify-content: left;
+    width: 20px;
+}
+.book1{
+    display:flex;
+    justify-content: left;
+    width: 20px;
+}
+.book2{
+    display:flex;
+    justify-content: left;
+    width: 20px;
+}
+.montre{
+	display:flex;
+	justify-content: left;
+	width: 30px;
+}
+.iphone{
+	display:flex;
+    justify-content: left;
+    width: 20px;
+}
+.portable{
+	display:flex;
+    justify-content: left;
+    width: 20px;
+}
+
+.deuxieme{
+    
+    justify-content:left;
+    gap: 30px;
+    display: flex;
+    align-items: center;
+    margin-left: 200px;
+    margin-right: 50px;
+}
+.quoi{
+    display: flex;
+    gap: 45px;
+}
+.haut{
+    display:flex;
+    justify-content: center;
+    margin-top: 100px;
+    font-weight: bold;
+    font-size: larger;
+}
+.bublio h4{
+    font-weight: bold;
+    font-size: larger;
+}
+.quoi h4{
+    font-weight: bold;
+    font-size: larger;
+}
+.ressem h4{
+    font-weight: bold;
+    font-size: larger;
+}
+.wifi h4{
+    font-weight: bold;
+    font-size: larger;
+}
+
+.phone{
+    width: 200px;
+    display: flex;
+
+}
+
+section.icone{
+    display: flex;
+    justify-content:left;
+}
+section.profit h2{
+    text-align: center;
+}
+section.profit{
+    display: flex;
+    margin-top: 20px;
+    justify-content: center;
+		gap: 4px;
+   
+}
+.prix{
+	display: flex;
+	justify-content: center;
+	margin-bottom: 0px;
+}
+.prix1{
+	display: flex;
+	justify-content: center;
+	margin-bottom: 0px;
+}
+.prix2{
+	display: flex;
+	justify-content: center;
+	margin-bottom: 0px;
+}
+.somme{
+	display: flex;
+justify-content: center;
+margin-top: 0px;
+}
+.somme1{
+	display: flex;
+justify-content: center;
+margin-top: 0px;
+}
+.somme2{
+	display: flex;
+justify-content: center;
+margin-top: 0px;
+}
+
+section.profit article.blue{
+    background-color: #2d96c8;
+}
+section.text{
+    text-align: center;
+    margin-top: 50px;
+}
+
+section.pourcen{
+    background-color: rgba(104, 99, 99, 0.192);
+    margin-bottom: 6px;
+    margin-top: 30px;
+    display: flex;
+		margin-left: 150px;
+		margin-right: 150px;
+		padding-top: 10px;
+		padding-bottom: 10px;
+}
+
+section.hifi{
+    background-color: rgba(104, 99, 99, 0.192);
+    margin-bottom: 6px;
+		margin-left: 150px;
+		margin-right: 150px;
+		padding-top: 10px;
+		padding-bottom: 10px;
+}
+section.etudiant{
+    background-color: rgba(104, 99, 99, 0.192);
+		margin-left: 150px;
+		margin-right: 150px;
+		padding-top: 10px;
+		padding-bottom: 10px;
+
+}
+.rouge {
+background-color: #ef5466;
+border-radius: 10px;
+}
+.blanc{
+    background-color: white;
+    border-radius: 10px;
+}
+.jen{
+    border-radius: 10px;
+		background-color: #ef5466;
+		color: white;
+		width: 150px;
+		padding-bottom: 10px;
+		margin-top: 10px;
+}
+.ins{
+    border-radius: 10px;
+    justify-content: center;
+		background-color: #8e8e94;
+		width: 150px;
+		padding-bottom: 10px;
+		margin-top: 10px;
+}
+.jen1{
+    border-radius: 10px;
+		background-color:#ef5466;
+		color: white;
+		width: 150px;
+		padding-bottom: 10px;
+		margin-top: 10px;
+		align-items: center;
+}
+button.abonne{
+
+    border-radius: 10px;
+    
+    
+}
+.savoir{
+    border-radius: 10px;
+		/* justify-content:end; */
+}
+.savoir1{
+    border-radius: 10px;
+		justify-content: center;
+}
+nav button{
+    border-radius: 10px;
+}
+.diff{
+    border-color: blue;
+    background-color: white;
+}
+.diff1{
+    
+    background-color: blue;
+}
+.lien1{
+    color: black;
+    text-decoration: none;
+}
+.lien2{
+    color: black;
+    text-decoration: none;
+}
+section.profit h2 h4 h5 h6{
+justify-content: center;
+}
+.profit1{
     display: flex;
     justify-content: center;
-    width: auto;
+    margin-top: 40px;
+}
+.mot{
+  justify-content: center;
+}
+.butt1{
+	display: flex;
+	justify-content: center;
+	
+}
+.butt2{
+	display: flex;
+	justify-content: center;
+}
+.lienn1{
+	display: flex;
+	justify-content: center;
+	margin-top: 40px;
+	text-decoration: none;
+}
+.lienn2{
+	display: flex;
+	justify-content: center;
+	margin-top: 40px;
+	text-decoration: none;
+}
+.butt3{
+	display: flex;
+	justify-content: center;
+}
+.lienn3{
+	display: flex;
+	justify-content: center;
+	margin-top: 40px;
+	
+}
+.debut a{
+	text-decoration: none;
+}
+.blue a{
+	text-decoration: none;
+}
+.fami a{
+	text-decoration: none;
+}
+.nombre{
+	display: flex;
+	justify-content: center;
+	margin-bottom: 10px;
+	color: white;
+}
+.nombre1{
+	display: flex;
+	justify-content: center;
+	margin-bottom: 10px;
+	color: blue;
+}
+.sav{
+	display: flex;
+	gap: 300px;
+}
+.pourc{
+	display: flex;
+	gap: 290px;
+}
+.hif{
+	display: flex;
+	gap: 340px;
+}
+/* .llogo{
+	display: flex;
+	background-color: white;
+	width: 100px;
+	
+	
+	
+} */
+.llogo1{
+	width: 100px;
+	background-color: white;
+	margin-top: 100px;
+	color: white;
+	justify-content:center;
+	
+	/* display: flex; */
+}
+/* .fooot{
+	/* display: flex; */
+	/* justify-content: center; */
+
+	/* width: 100px; */
+
+} */
+
+ /* .instagram{
+width: 10px;
+} */
+/* .facebook{
+	display: flex;
+	width: 180px;
+}
+.twitter{
+	display: flex;
+	width: 180px;
+}
+.youtub{
+	display: flex;
+	width: 180px;
+} */ 
+.gram{
+	display: flex;
 }
