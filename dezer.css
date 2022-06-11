@@ -27,11 +27,7 @@ nav{
     display:flex;
     justify-content:right;
     width:auto;
-    gap: 45px;
-    
-   
-    
-    
+    gap: 45px; 
 }
 
 
@@ -92,8 +88,8 @@ footer{
     justify-content:center;
     gap: 80px;
 		width: auto;
-		margin-left: 100px;
-		margin-right: 100px;
+		margin-left: 80px;
+		margin-right: 80px;
 		color: white;
 }
  .troisI{
@@ -197,7 +193,6 @@ section.profit{
     margin-top: 20px;
     justify-content: center;
 		gap: 4px;
-   
 }
 .prix{
 	display: flex;
@@ -247,6 +242,9 @@ section.pourcen{
 		margin-right: 150px;
 		padding-top: 10px;
 		padding-bottom: 10px;
+}
+section.pourcen strong{
+	color: red;
 }
 
 section.hifi{
@@ -421,7 +419,6 @@ justify-content: center;
 	color: white;
 	justify-content:center;
 	
-	/* display: flex; */
 }
 /* .fooot{
 	/* display: flex; */
@@ -429,7 +426,7 @@ justify-content: center;
 
 	/* width: 100px; */
 
-} */
+
 
  /* .instagram{
 width: 10px;
@@ -449,3 +446,117 @@ width: 10px;
 .gram{
 	display: flex;
 }
+@media screen and (max-width: 768px) 
+{
+	section.premier{
+		display: block;
+		justify-content: center;
+	   width: auto;
+	   padding-top: 20px;
+	   margin-right:  300px;
+	}
+  }
+
+@media screen and (max-width: 768px)
+{
+	.hero{
+		width: 800px;
+		padding-top: 0px;
+	}
+}
+@media screen and (max-width: 768px)
+{
+	
+	.phone{
+		display:none
+		
+	
+	}
+}
+
+
+@media screen and (max-width: 768px)
+{
+	.deuxieme{
+    
+		justify-content:left;
+		gap: 30px;
+		display: flex;
+		align-items:left;
+		margin-left: 200px;
+		margin-right: 50px;
+	}
+	
+}
+@media screen and (max-width: 768px)
+{
+	section.toujour{
+		width: 550px;
+		flex-direction: column-reverse;
+		align-items: center;
+		  
+	  } 
+	
+}
+@media screen and (max-width: 768px)
+{
+	section.profit{
+		display: flex;
+		flex-direction:column;
+		justify-content: center;
+		width: 700px;
+		padding-right: 0px;
+		text-align: center;
+		
+	}
+	
+}
+
+@media screen and (max-width: 768px)
+{
+	section.text{
+		display: flex;
+		justify-content: center;
+		margin-right: 0px;
+	}
+	 
+}
+@media screen and (max-width: 768px)
+{
+	section.profit1{
+		display: flex;
+		
+	}
+
+	}
+
+  @media screen and (max-width: 768px)
+  {
+    nav{
+      display:none;
+      
+      
+  }
+
+  @media screen and (max-width: 768px)
+  {
+    nav{
+      display:block;
+      
+      
+  }
+
+    }
+    @media screen and (max-width: 768px)
+    {
+      .burger{
+        display: 
+        
+        
+    }
+  
+      }
+
+ 
+
+
