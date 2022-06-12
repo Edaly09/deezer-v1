@@ -12,16 +12,19 @@ header{
     padding-top: 5px;
     width: auto;
     border:black;
+	
     
 }
 hr{
     size: 10px;
+	margin-top: 1px;
 }
 
 .image{
     justify-content: left;
     display: flex;
     width: 80px;
+	
 }
 nav{
     display:flex;
@@ -198,31 +201,49 @@ section.profit{
 	display: flex;
 	justify-content: center;
 	margin-bottom: 0px;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: large;
 }
 .prix1{
 	display: flex;
 	justify-content: center;
 	margin-bottom: 0px;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: large;
 }
 .prix2{
 	display: flex;
 	justify-content: center;
 	margin-bottom: 0px;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: large;
 }
 .somme{
 	display: flex;
 justify-content: center;
 margin-top: 0px;
+text-transform: uppercase;
+	font-weight: bold;
+	font-size: x-large;
 }
 .somme1{
 	display: flex;
 justify-content: center;
 margin-top: 0px;
+text-transform: uppercase;
+	font-weight: bold;
+	font-size: x-large;
 }
 .somme2{
 	display: flex;
 justify-content: center;
 margin-top: 0px;
+text-transform: uppercase;
+	font-weight: bold;
+	font-size: x-large;
 }
 
 section.profit article.blue{
@@ -239,29 +260,33 @@ section.pourcen{
     margin-top: 30px;
     display: flex;
 		margin-left: 150px;
-		margin-right: 150px;
+		margin-right: 100px;
 		padding-top: 10px;
 		padding-bottom: 10px;
+		font-weight: bold;
+		
+		
 }
-section.pourcen strong{
-	color: red;
-  display: block;
-}
+
 
 section.hifi{
     background-color: rgba(104, 99, 99, 0.192);
     margin-bottom: 6px;
 		margin-left: 150px;
-		margin-right: 150px;
+		margin-right: 100px;
 		padding-top: 10px;
 		padding-bottom: 10px;
+		justify-content: center;
+		font-weight: bold;
 }
 section.etudiant{
     background-color: rgba(104, 99, 99, 0.192);
 		margin-left: 150px;
-		margin-right: 150px;
+		margin-right: 100px;
 		padding-top: 10px;
 		padding-bottom: 10px;
+		justify-content: center;
+		font-weight: bold;
 
 }
 .rouge {
@@ -300,12 +325,11 @@ border-radius: 10px;
 button.abonne{
 
     border-radius: 10px;
-    
-    
+	gap: 300px;
+	margin-right: 200px;
 }
 .savoir{
-    border-radius: 10px;
-		/* justify-content:end; */
+    border-radius: 10px;	
 }
 .savoir1{
     border-radius: 10px;
@@ -395,59 +419,34 @@ justify-content: center;
 }
 .sav{
 	display: flex;
-	gap: 300px;
+	gap: 549px;
 }
 .pourc{
 	display: flex;
-	gap: 290px;
+	gap: 600px;
+	
 }
 .hif{
 	display: flex;
-	gap: 340px;
+	gap: 630px;
+	
 }
 
-/* .llogo{
-	display: flex;
-	background-color: white;
-	width: 100px;
-	
-	
-	
-} */
 .llogo1{
 	width: 100px;
 	background-color: white;
-	margin-top: 100px;
 	color: white;
-	justify-content:center;
-	
-}
-/* .fooot{
-	/* display: flex; */
-	/* justify-content: center; */
-
-	/* width: 100px; */
-
-
-
- /* .instagram{
-width: 10px;
-} */
-/* .facebook{
-	display: flex;
-	width: 180px;
-}
-.twitter{
-	display: flex;
-	width: 180px;
-}
-.youtub{
-	display: flex;
-	width: 180px;
-} */ 
-.gram{
 	display: flex;
 }
+.fooot{
+	display: flex;
+	 justify-content: center;
+	 margin-top: 100px;
+	 width: 1000px;
+	 gap: 45px;
+
+   }
+
 @media screen and (max-width: 768px) 
 {
 	section.premier{
@@ -589,7 +588,23 @@ width: 10px;
 }
    
 }
+.faceboo{
+	width: 30px;
+	 
+	align-items: center;
+}
+.insta{
+	width: 30px;
+}
+.twitter{
+	width: 30px;
+	
+}
+.reseau{
+	display: flex;
+	
 
+}
   
 
 
