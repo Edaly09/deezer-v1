@@ -245,6 +245,7 @@ section.pourcen{
 }
 section.pourcen strong{
 	color: red;
+  display: block;
 }
 
 section.hifi{
@@ -404,6 +405,7 @@ justify-content: center;
 	display: flex;
 	gap: 340px;
 }
+
 /* .llogo{
 	display: flex;
 	background-color: white;
@@ -529,34 +531,67 @@ width: 10px;
 	}
 
 	}
-
   @media screen and (max-width: 768px)
-  {
-    nav{
-      display:none;
-      
-      
-  }
+{
+	nav{
+		display: none;
+		
+	}
 
-  @media screen and (max-width: 768px)
-  {
-    nav{
-      display:block;
-      
-      
-  }
-
-    }
-    @media screen and (max-width: 768px)
-    {
-      .burger{
-        display: 
-        
-        
-    }
+	}
   
-      }
+  .burger{
+    display:none;
+  }
+@media screen and (max-width: 768px)
+{
+  nav{
+    display:none;
 
- 
+    }
+    .burger{
+      display: block;
+    }
+}
+
+@media screen and (max-width: 768px)
+{
+  .rouge {
+  margin-top: 80px;
+  margin-left: 90px;
+  padding-top: 10px;
+  padding-left: 60px;
+  padding-right: 60px;
+  display: block;
+  }
+   
+}
+
+@media screen and (max-width: 768px)
+{
+  .blanc{
+    margin-top: 10px;
+    margin-left: 100px;
+    padding-top: 10px;
+    padding-left: 60px;
+    padding-right: 60px;
+    display: block;
+   
+}
+   
+}
+@media screen and (max-width: 768px)
+{
+  .premier{
+    margin-left: 120px ;
+    margin-bottom: 20px;
+   
+}
+   
+}
+
+  
 
 
+
+  
